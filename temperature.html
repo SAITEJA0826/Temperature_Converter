@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Creatd by SAI TEJA SP @ 2023-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temperature.css">
+    <script src="temperature.js"></script>
+    <script src="https://kit.fontawesome.com/c1ddd001fa.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="container">
+        <h1 class="heading">Temperature Converter</h1>
+        <label for="celsius">°C</label>
+        <input type="text" id="celsius" placeholder="Enter Celsius"/>
+        <button type="button" class="button" onclick="convertFah()">Convert</button><br><br>
+
+        <label for="fahren">°F</label>
+        <input type="text" id="fahren" placeholder="Enter Fahren"/>
+        <button type="button" class="button" onclick="convertKel()">Convert</button><br><br>
+        
+        <label for="celsius">K</label>
+        <input type="text" id="kelvin" placeholder="Enter Kelvin"/>
+        <button type="button" class="button" onclick="convertCel()">Convert </button><br><br>
+
+        <button type="button" id="btn" onclick="reset()">Reset</button>
+    </div>
+    <marquee scrollamount="4" class="copy-contain" direction="right">
+        <div class="copy-container">
+            <div class="copy">
+                <i class="fa-regular fa-copyright copy-icon"></i>
+                <p class="copy-para">2023 Created by Sai Teja SP.</p>
+            </div>
+        </div>
+    </marquee>
+
+ 
+    <!-- Creatd by SAI TEJA SP @ 2023-->
+</body>
+</html>
+
+
+<!-- font-family: 'Josefin Sans', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Shantell Sans', cursive;
+font-family: 'Tilt Neon', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Zeyada', cursive; -->

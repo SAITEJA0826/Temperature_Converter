@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Satisfy&family=Shantell+Sans&family=Tilt+Neon&family=Ubuntu&family=Varela+Round&family=Zeyada&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/176/914/HD-wallpaper-nature-landscape-macro-sunset.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#container{
+    text-align: center;
+    margin-top: 160px;
+    background: none;
+}
+.heading{
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: rgb(10, 10, 10);
+    margin-bottom: 15px;
+
+}
+label{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+input{
+    border-color: rgb(73, 81, 66);
+    height: 30px;
+    width: 180px;
+    border-width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+
+}
+.button{
+    background-color: indianred;
+    color: #ffffff;
+    border-width: 0;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 15px;
+    height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.button:hover{
+    background-color: transparent;
+    border-width: 1px;
+    border-color: #ffffff;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+#btn{
+    background-color: indianred;
+    color: #ffffff;
+    border-width: 0;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 120px;
+    height: 32px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .5s;
+    cursor: pointer;
+    margin-bottom: 10%;
+    
+}
+#btn:hover{
+    background-color: transparent;
+    border-width: 1.5px;
+    border-color: #ecf1da;
+    color: #ecf1da;
+    transform: scale(1.05);
+    border-radius: 0;
+}
+
+.copy-contain{
+    background-color: transparent;
+    margin-top: 40px;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #d3e1ec;
+
+}
+.copy-icon{
+    font-size: 23px;
+    margin-right: 10px;
+}
+.copy-para{
+    font-size: 16px;
+    font-family: roboto;
+    font-family: 'ubuntu', sans-serif;
+}
